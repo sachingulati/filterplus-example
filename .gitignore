@@ -31,3 +31,44 @@
 
 # "temporary" build files
 /target
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea/
+.sonar/
+.classpath
+.project
+*.iml
+*.ipr
+*.iws
+*.log.*
+*.log
+*.db
+logs
+out
+target
+grails-app/conf/LocalConfig.groovy
+
+.settings
+stacktrace.log
+/*.log
+/*DB.*
+/cobertura.ser
+.DS_Store
+/target/
+/out/
+/.link_to_grails_plugins/
+/target-eclipse/
+.sonar_lock
+.slcache
